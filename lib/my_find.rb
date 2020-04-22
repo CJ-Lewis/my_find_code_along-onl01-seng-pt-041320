@@ -6,9 +6,7 @@ def my_find(collection)
     collection.length
     return
     (collection[i]) if
-    return
-  collection[i]
-end
+    yield(collection[i])
       i = i + 1
     end
 end
